@@ -5,8 +5,8 @@
 }
 
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0px;
+    margin: 0px;
 }
 :root{
     --font-principal: 'Android';
@@ -62,7 +62,7 @@ header >nav >a:hover{
 main{
     background-color: white;
     max-width: 1050px;
-    min-width: 320px;
+    min-width: 375px;
     margin: auto;
     padding: 15px;
 }
