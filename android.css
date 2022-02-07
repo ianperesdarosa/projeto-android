@@ -43,6 +43,9 @@ header >p{
     margin-bottom: 10px;
     text-shadow: 1px 1px 2px #0000003b;
 }
+header >nav{
+    margin-top: 15px;
+}
 header >nav >a{
     color: white;
     text-decoration: none;
@@ -61,7 +64,7 @@ header >nav >a:hover{
 
 main{
     background-color: white;
-    max-width: 1050px;
+    max-width: 1000px;
     min-width: 300px;
     margin: auto;
     padding: 15px;
@@ -88,8 +91,13 @@ article >p{
     line-height: 20px;
     margin-bottom: 10px;
 }
-main >img{
+img{
     width: 100%;
+    display: block;
+    margin: auto;
+}
+div.pequena{
+    width: 50%;
     display: block;
     margin: auto;
 }
@@ -116,7 +124,7 @@ p >a::before{
 /* EXTRA*/
 div.video{
     background-color: var(--cor1);
-    margin: 0px -20px 30px -20px;
+    margin: 0px -15px 30px -15px;
     padding: 20px;
     padding-bottom: 59%;
     position: relative;
