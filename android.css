@@ -149,6 +149,13 @@ article >ul{
     columns: 2;
     padding: 20px;
 }
+aside.creditos{
+    font-family: var(--font-normal);
+    background-color: none;
+}
+aside.creditos >p{
+    background-color: none;
+}
 footer{
     background-color: var(--cor1);
     color: white;
